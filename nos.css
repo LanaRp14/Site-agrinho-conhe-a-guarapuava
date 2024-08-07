@@ -183,14 +183,14 @@ body{
 .social {
     background-image: linear-gradient(to right, #0097b2,#7ed957);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    display: flex;
     gap: 10px;
     color: black;
     word-spacing: 10px;
     gap: 250px;
     padding: 20px;
     align-items: center;
-    margin-top: 60px;
+    margin-top: 90px;
+    justify-content:end;
   }
   
   #nome {
