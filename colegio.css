@@ -17,7 +17,7 @@
     background-image: url("img/hanburguer.png");
     background-repeat: no-repeat;
     background-position: center;
-    margin-left: -180px;
+    margin-left: -12vw;
 }
 
 .container__botao:checked ~ .lista-menu {
@@ -28,7 +28,7 @@
 .lista-menu__item {
     padding: 1em;
     background-color: #64cbd6;
-    margin-left: -210px;
+    margin-left: -14vw;
 }
 .lista-menu {
     display: none;
@@ -50,7 +50,7 @@
 .cabecalho_direito{
     align-items: center;
     display: flex;
-    margin-left: -500px;
+    margin-left: -35vw;
 }
 
 .barra-pesquisa{
@@ -125,8 +125,9 @@ p {
 
 .texto1 {
   grid-row: 2/5;
+  margin-top: -2em;
+
   grid-column: 3/7;
-  margin-left: -20px;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
  
 
@@ -136,8 +137,8 @@ p {
 .texto2 {
   grid-row: 3/5;
   grid-column: 2/8;
+  margin-top: -1em;
   font-size: 18px;
-  margin-left: -20px;
   text-align: center; 
 }
 
@@ -180,9 +181,9 @@ background-size: cover;
 margin-bottom: 100px;
 }
 
-.formiga {
+.titulo {
   font-size: 2em;
-  margin-left: 50px;
+  margin-left: 3em;
 }
 
 #serv1, #serv2, #serv3 {
@@ -196,13 +197,11 @@ margin-bottom: 100px;
 }
 
 .top3 img {
-  height: 300px;
+  height: 20vw;
   gap: 1px;
 }
 .top3 p {
   color: black;
-  margin-top: 10px;
-  margin-bottom: 100px;
 }
 
 .joao {
@@ -215,8 +214,6 @@ margin-bottom: 100px;
 
 .top4 {
   display: flex;
-  gap: 100px;
-  margin-left: 20px;
   justify-content: space-around;
 }
 .top4 h2{
@@ -228,8 +225,7 @@ margin-bottom: 100px;
 #text {
   display: flex;
   flex-direction: column;
-  gap: 5px;
-  margin-top: 40px;
+  padding: 2em;
 }
 
 #imagens {
@@ -244,8 +240,8 @@ margin-bottom: 100px;
 }
 
 #pao1 img, #pao2 img, #pao3 img {
-  width: 450px;
-  margin-bottom: 30px;
+  width: 30vw;
+  margin-bottom: 1em;
 }
 
 #pao1 h2, #pao2 h2, #pao3 h2 {
@@ -254,26 +250,21 @@ margin-bottom: 100px;
 
 #pao1 p, #pao2 p, #pao3 p {
   color: black;
-  margin-top: 10px;
 }
 
 .botao-1 {
   color: white;
   background-color: rgb(4, 107, 107);
-  margin-left: 30px;
   border-radius: 30px;
   padding: 10px 40px;
   font-weight: bold;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 16px;
-  letter-spacing: .5px;
-  margin-top: 20px;
 }
 
 .top5 {
   display: flex;
   gap: 150px;
-  margin-bottom: 200px;
 }
 
 h3 {
@@ -283,13 +274,13 @@ h3 {
 }
 
 .saiba {
-  margin-left: 150px;
+  padding: 2em;
   display: flex;
   flex-direction: column;
 }
 
 .infor {
-  margin-bottom: 150px;
+  margin-bottom: 10vw;
   width: 450px;
   font-size: 40px;
   margin-top: 100px;
@@ -329,12 +320,12 @@ h3 {
 .corpo{
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  min-height: 40vw;
   display: flex;
 }
 .mapBox{
-  width: 1200px;
-  height: 500px;
+  width: 80vw;
+  height: 35vw;
   background: #fff;
 }
 .mapBox iframe{
@@ -342,9 +333,5 @@ h3 {
   height: 100%;
 }
 .corpo{
-  justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    display: flex;
-    margin-top: -200px;
+    margin-top: -10vw;
 }

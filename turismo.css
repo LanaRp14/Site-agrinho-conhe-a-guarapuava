@@ -17,7 +17,7 @@
     background-image: url("img/hanburguer.png");
     background-repeat: no-repeat;
     background-position: center;
-    margin-left: -180px;
+    margin-left: -12vw;
 }
 
 .container__botao:checked ~ .lista-menu {
@@ -28,7 +28,7 @@
 .lista-menu__item {
     padding: 1em;
     background-color: #64cbd6;
-    margin-left: -200px;
+    margin-left: -14vw;
     
 }
 .lista-menu {
@@ -51,7 +51,7 @@
 .cabecalho_direito{
     align-items: center;
     display: flex;
-    margin-left: -500px;
+    margin-left: -35vw;
 }
 .barra-pesquisa{
     width: 400px;
