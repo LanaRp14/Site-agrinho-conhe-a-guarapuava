@@ -68,9 +68,13 @@
 body{
     background-color: #FFDE59;
 }
+.img-mapa-mental{
+    width: 90vw;
+}
 .imgrobo{
-    margin-top: -600px;
-    margin-left: 1300px;
+    width: 10vw;
+    margin-top: -40vw;
+    margin-left: 85vw;
 }
 .texto-robotica{
     text-align: center;
